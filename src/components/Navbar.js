@@ -32,12 +32,12 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <div className="container d-flex justify-content-between">
+        <div className="container">
           <div className="search col-xs-12">
-            <input className="search-input" placeholder="Cari Cerita?" />
+            <input className="col-xs-12 search-input" placeholder="Cari Cerita?" />
           </div>
           <div className="col-xs-12">
-            <ul className="d-flex flex-row navbar-item">
+            <ul className="navbar-item">
               <li><a style={{ fontWeight: "bold", color: "#ff4018" }} href="#">Buat Berita</a></li>
               <li><a href="#">Cerita Culture</a></li>
               <li><a href="#">Events</a></li>

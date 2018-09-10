@@ -5,7 +5,7 @@ const imageUrl = 'https://images.unsplash.com/photo-1536443527011-81700919d4c0?i
 export default class Content extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container content">
         <h1 className="content-head">Daftar Cerita</h1>
 
         {/* Featured Konten */}
@@ -35,7 +35,7 @@ export default class Content extends Component {
                   </div>
                 </a>
               </a>
-              <div className="col-md-6">
+              <div className="col-md-6 col-xs-12">
                 <a href="" class="card">
                   <img class="card-img-top" src={imageUrl} alt="Card image cap" />
                   <div class="card-body">
